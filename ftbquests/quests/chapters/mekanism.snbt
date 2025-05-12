@@ -1,0 +1,294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: ""
+	id: "2541CB3F16D19759"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			description: ["Osmium is pretty essential to early game Mekanism, needed for a variety of machines.  It's relatively abundant, so it shouldn't be too hard to amass a fair amount."]
+			id: "483EEB43A36FA064"
+			rewards: [{
+				count: 8
+				id: "16C933B50968A825"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "57DC3E427230834E"
+				item: { Count: 16, id: "mekanism:raw_osmium" }
+				type: "item"
+			}]
+			title: "Getting Started with Mekanism"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["483EEB43A36FA064"]
+			description: ["One of the most important machines in Mekanism, you will need this to produce a variety of materials, such as circuits, enriched alloys and steel.  You will make heavy use of this as the majority of other machines require materials only the infuser can produce."]
+			id: "15C6879EE7D9229A"
+			rewards: [
+				{
+					count: 16
+					id: "3460B586CD49771B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2A92BA5397E66CEF"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7718CA98B3C305E5"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["15C6879EE7D9229A"]
+			description: ["The first upgrade tier for the Metallurgic Infuser, the majority of Mekanism machines can be upgraded similarly."]
+			id: "76ECAFC018702586"
+			rewards: [{
+				id: "34560771021E1028"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1D54DF0DC2E913D1"
+				item: "mekanism:basic_infusing_factory"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["76ECAFC018702586"]
+			id: "175D4EE0995F8287"
+			rewards: [{
+				count: 8
+				id: "2416A7C84C32BB51"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "01EFCF714E99F979"
+				item: "mekanism:advanced_infusing_factory"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["175D4EE0995F8287"]
+			id: "7A45211CB58F49F3"
+			rewards: [{
+				count: 8
+				id: "72BFB70E069CA030"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6DFEE0795AA65C29"
+				item: "mekanism:elite_infusing_factory"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7A45211CB58F49F3"]
+			description: ["Good job! Have a treat :)"]
+			id: "464CDE86D9035CD5"
+			rewards: [
+				{
+					count: 8
+					id: "73A1AC75257FE884"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+				{
+					id: "64A90BCCCE04EFAC"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0D57A4C203CA3B18"
+				item: "mekanism:ultimate_infusing_factory"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["15C6879EE7D9229A"]
+			description: ["Basic machine component."]
+			id: "053F4A9796054BC7"
+			rewards: [{
+				count: 4
+				id: "33A6A4DA0F4F03C5"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1E1A22C1D1ECE8D9"
+				item: { Count: 8, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15C6879EE7D9229A"]
+			description: ["Basic machine component."]
+			id: "097B97F640A6161A"
+			rewards: [{
+				count: 16
+				id: "1A9E93CD2AED276B"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "398BFF026D3DB2BE"
+				item: { Count: 8, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15C6879EE7D9229A"]
+			description: ["Material needed to make higher tiers of machines."]
+			id: "79BBB20B85000E6B"
+			rewards: [{
+				count: 8
+				id: "79511A1758759ED6"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 16L
+				id: "15B579616FED0B03"
+				item: { Count: 16, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["79BBB20B85000E6B"]
+			id: "41ACC6B64437EC71"
+			rewards: [{
+				count: 8
+				id: "6B4249F3511383C1"
+				item: "mekanism:enriched_diamond"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 16L
+				id: "64FE0F8E00AA42F5"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["41ACC6B64437EC71"]
+			id: "41F8E48EFF9EBF25"
+			rewards: [
+				{
+					count: 8
+					id: "525DE9104736BA48"
+					item: "mekanism:enriched_refined_obsidian"
+					type: "item"
+				}
+				{
+					id: "020D453F5943FEFF"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 16L
+				id: "5706324AD700542D"
+				item: { Count: 16, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["15C6879EE7D9229A"]
+			id: "66C4EA7E4DAFA6CB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "11A233861F562FFE"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15C6879EE7D9229A"]
+			id: "7CA321811D03CD56"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0A2E2F6D492CD5C8"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15C6879EE7D9229A"]
+			id: "5F604FD4B96372DF"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0AF8713126A30DC3"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "3CF24A62A39243F5"
+			tasks: [{
+				id: "2AD5AB1739BF3FEB"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			title: "Note: these 3 machine quests aren't finished"
+			x: -2.5d
+			y: -1.0d
+		}
+	]
+	title: "Mekanism"
+}
