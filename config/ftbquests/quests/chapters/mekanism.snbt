@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: ""
+	icon: "mekanism:metallurgic_infuser"
 	id: "2541CB3F16D19759"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

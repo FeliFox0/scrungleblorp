@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative"
+	group: ""
+	icon: {
+		Count: 1
+		id: "mekanism:creative_fluid_tank"
+		tag: {
+			mekData: {
+				FluidTanks: [{
+					Tank: 0b
+					stored: {
+						Amount: 2147483647
+						FluidName: "biomesoplenty:liquid_null"
+					}
+				}]
+			}
+		}
+	}
+	id: "6E803406A30C38C7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In this modpack you can (optionally) obtain creative items"
+				""
+				"It's gonna cost you though"
+			]
+			hide_until_deps_visible: false
+			id: "6286C8B098F337BE"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Yep its a resource sink"
+			tasks: [{
+				id: "6C6E28060EE4C295"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "Creative Items"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6286C8B098F337BE"]
+			icon: "create:creative_blaze_cake"
+			id: "3CB7D607AB9E8384"
+			rewards: [{
+				id: "54571466C22B84BD"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100000L
+				id: "0EE1293E9AE518D0"
+				item: { Count: 100000, id: "create:blaze_cake" }
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Creative Blaze Cake"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6286C8B098F337BE"]
+			id: "78613A9A4EBE2DF7"
+			tasks: [{
+				id: "46216B8ED1DD7EF5"
+				item: "create:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6286C8B098F337BE"]
+			id: "4639BA71FA8C7EDF"
+			tasks: [{
+				id: "591205783AA3FA77"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6286C8B098F337BE"]
+			id: "44671E0999051E46"
+			tasks: [{
+				id: "58BCE8C5A30ADCB1"
+				item: "create:handheld_worldshaper"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6286C8B098F337BE"]
+			id: "63015EC19269B5A3"
+			tasks: [{
+				id: "7743C1A9F5266696"
+				item: "create_connected:creative_fluid_vessel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6286C8B098F337BE"]
+			id: "2BD67C2982072B53"
+			tasks: [{
+				id: "10B2881C9043F067"
+				item: "storagedrawers:creative_storage_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+	title: "Creative"
+}
