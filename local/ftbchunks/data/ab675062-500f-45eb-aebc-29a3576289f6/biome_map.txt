@@ -1,0 +1,10 @@
+#010 minecraft:forest
+#515 biomesoplenty:mystic_grove
+#552 biomesoplenty:old_growth_woodland
+#3DC minecraft:plains
+#4FE biomesoplenty:prairie
+#698 biomesoplenty:redwood_forest
+#5FF minecraft:river
+#67B minecraft:savanna
+#274 biomesoplenty:scrubland
+#7F2 biomesoplenty:woodland
