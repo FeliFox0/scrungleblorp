@@ -1,1 +1,105 @@
 # minecraft modpack
+
+## mods in pack:
+
+- Botarium
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Thermal Dynamics
+- Accelerated Decay
+- AppleSkin
+- Applied Energistics 2
+- Applied Energistics 2 Wireless Terminals
+- Applied Mekanistics
+- Architectury API
+- Ars Nouveau
+- Better Dogs X Doggy Talents Next
+- Biomes O' Plenty
+- Blood Magic
+- BooneForgeAPI
+- Carry On
+- Chest Cavity - Forge Port
+- Cloth Config API
+- CodeChicken Lib 1.8+
+- CoFH Core
+- Colossal Chests
+- Create
+- Create Deco
+- Create Jetpack
+- Create Ore Extraction
+- Create Questing
+- Create Railways Navigator
+- Create Applied Kinetics
+- Create: Bells & Whistles
+- Create: Connected
+- Create: Copycats+
+- Create: Diesal Generators
+- Create: Interior
+- Create: New Age
+- Create: Numismatics
+- Create: Powder Loader
+- Create: Trading Floor
+- Cucumber Library
+- Curios API
+- Cyclops Core
+- Doggy Talents Next
+- Easy Villagers
+- Effortless Building
+- Embeddium
+- EMI
+- EMI Enchanting
+- EMI Loot
+- EMI Ores
+- EMI Trades
+- EMIffect
+- Ender IO
+- Ender Storage 1.8+
+- Extended Crafting
+- FTB Chunks
+- FTB Essentials
+- FTB Library
+- FTB Quests
+- FTB Quests Optimiser
+- FTB Teams
+- FTB Ultimate
+- Fzzy Config
+- GlitchCore
+- GraveStone Mod
+- GraveStone x Curios API Content
+- GuideME
+- Immersive Armours
+- Immersive Engineering
+- Industrial Foregoing
+- Inventory Pets
+- Iris/Oculus & GeckoLib Compat
+- Iron's Spells 'n' Spellbooks
+- Jade
+- Jade Addons
+- Jewellery (RPG Series)
+- Kotlin for Forge
+- Mekanism
+- Mekanism Generators
+- Mekanism Tools
+- Mouse Tweeks
+- Necronomicon API
+- No Chat Reports
+- Oculus
+- Patchouli
+- playerAnimator
+- Resourceful Lib
+- Simple Voice Chat
+- Simply Light
+- Sodium/Embeddium Dynamic Lights
+- Sodium/Embeddium Options API
+- Sophisticated Backpacks Create Integration
+- Storage Drawers
+- TerraBlender
+- Thermal Cultivation
+- Thermal Expansion
+- Thermal Foundation
+- Thermal Innovation
+- Thermal Integration
+- Titatium
+- Xaero's Minimap & World Map - Waystones Compatibility
+- Xaero's World Map
