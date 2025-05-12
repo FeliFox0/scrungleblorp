@@ -1,4 +1,4 @@
-# minecraft modpack
+# scrungleblorp
 
 ## mods in pack:
 
