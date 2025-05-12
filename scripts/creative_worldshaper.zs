@@ -1,3 +1,5 @@
+//please dont mess with this it was godawful to get it working
+
 <recipetype:extendedcrafting:table>.addShaped("creative_worldshaper", <item:create:handheld_worldshaper>,
 [[<item:minecraft:air>, <item:create:railway_casing>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 [<item:create:railway_casing>, <item:chestcavity:blaze_core>, <item:create:railway_casing>, <item:create:railway_casing>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
