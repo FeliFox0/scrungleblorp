@@ -12,7 +12,11 @@
 #864C61 inventorypets:cloud_spawn
 #DE242D minecraft:coal_ore
 #FE4F0A minecraft:coarse_dirt
+#83C22A extendedcrafting:compressor
+#DDA1D0 enderio:conduit
 #6E76AF minecraft:copper_ore
+#E7F5B7 create:creative_crate
+#7D1447 enderio:creative_power
 #B2A2E1 minecraft:dandelion
 #BED665 minecraft:diorite
 #80497A minecraft:dirt
@@ -43,10 +47,12 @@
 #912D68 biomesoplenty:redwood_wood
 #9C3ECB minecraft:rose_bush
 #86FC77 minecraft:sand
+#975FAF create:smart_chute
 #13F5AC minecraft:spruce_leaves
 #DC3458 minecraft:stone
 #5CF3F1 minecraft:sugar_cane
 #59E530 create_new_age:thorium_ore
 #B50B59 mekanism:tin_ore
 #1E0585 thermal:tin_ore
+#36CBC5 extendedcrafting:ultimate_table
 #6137CB create:zinc_ore
