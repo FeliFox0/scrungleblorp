@@ -4,7 +4,7 @@
 suToEnergy = 0.029296875
 #How many coils can the carbon brushes collect energy from
 #Range: > 0
-maxCoils = 8
+maxCoils = 20
 #How many reactor rods can a fuel inserter or a heat vent have in a single direction
 #Range: > 0
 maxRodsInDirection = 32
@@ -40,7 +40,7 @@ ReactorRodHeatLoss = 25.0
 solarPanelHeatMultiplier = 1.0
 #Maximum wire length
 #Range: > 1
-maxWireLength = 16
+maxWireLength = 32
 
 [Motors]
 	#Maximum motor SU multiplier
