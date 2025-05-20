@@ -1,1 +1,0 @@
-<recipetype:extendedcrafting:compressor>.addRecipe("creative_storage_upgrade",<item:minecraft:emerald>, <item:storagedrawers:creative_storage_upgrade>,1000000,<item:storagedrawers:controller>, 100000000, 200000);

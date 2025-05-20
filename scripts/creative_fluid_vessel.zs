@@ -1,1 +1,0 @@
-<recipetype:extendedcrafting:compressor>.addRecipe("creative_fluid_vessel",<item:mekanism:alloy_atomic>, <item:create_connected:creative_fluid_vessel>,100000,<item:create_connected:fluid_vessel>, 100000000, 200000);
