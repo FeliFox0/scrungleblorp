@@ -1,0 +1,1 @@
+craftingTable.addShapeless("netherite_scrap", <item:minecraft:netherite_scrap> * 2, [<item:create:cinder_flour>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]);

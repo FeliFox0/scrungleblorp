@@ -1,0 +1,4 @@
+#Sun May 18 08:06:57 CEST 2025
+MOTION_BLUR_DITHER=false
+TITLE=false
+MOTION_BLUR=false
