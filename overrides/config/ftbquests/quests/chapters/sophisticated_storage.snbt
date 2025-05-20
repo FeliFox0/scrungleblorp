@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "299F492D876042AB"
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:diamond_barrel"
+		tag: {
+			woodType: "oak"
+		}
+	}
+	id: "1253B23A78B6AA37"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Sophisticated Storage"
+}

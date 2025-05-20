@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "60A7A788EC227E18", title: "Big Mods" }
+		{ id: "299F492D876042AB", title: "Storage" }
+		{ id: "6986E1F3852EF30B", title: "Multiplayer" }
+	]
+}
