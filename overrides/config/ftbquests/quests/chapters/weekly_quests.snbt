@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weekly_quests"
+	group: "6986E1F3852EF30B"
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0ACB4912A0AC89B5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D1A12FD070633FA"]
+			description: ["Here's some quests you can do once a week to get some currency from Create: Numismatics"]
+			id: "021D57FC3954A8E9"
+			rewards: [
+				{
+					id: "160ED97F19982886"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 5
+					id: "0DE9BE369AE66E08"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A9FA2F7F99C82BB"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "Weekly Quests"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["021D57FC3954A8E9"]
+			hide_until_deps_complete: true
+			id: "26A151B42CF2AFA5"
+			rewards: [{
+				count: 10
+				id: "5D26FB8270AEA079"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "72FDD8957D3494EC"
+				title: "Kill 3 withers"
+				type: "kill"
+				value: 3L
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["021D57FC3954A8E9"]
+			hide_until_deps_complete: true
+			id: "6CEEE48580814F63"
+			rewards: [{
+				count: 4
+				id: "2674292D50A4B2E6"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "5724D71CD413E7C5"
+				title: "Kill the dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["021D57FC3954A8E9"]
+			hide_until_deps_complete: true
+			id: "147A776880FC4678"
+			rewards: [{
+				count: 3
+				id: "19915D56F81C39B6"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "21D9C6BB89440F21"
+				item: { Count: 10000, id: "minecraft:cobblestone" }
+				title: "Submit 10,000 cobblestone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["021D57FC3954A8E9"]
+			hide_until_deps_complete: true
+			id: "1499EC0971022B48"
+			rewards: [{
+				count: 3
+				id: "6CFF41384AAA70F5"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "37D5F673109B1D0D"
+				stat: "minecraft:walk_one_cm"
+				title: "Walk 100,000 blocks"
+				type: "stat"
+				value: 10000
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["021D57FC3954A8E9"]
+			hide_until_deps_complete: true
+			id: "1C9957D83F7F058A"
+			rewards: [{
+				count: 15
+				id: "509B87A264BB1C05"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "2236E90295283C50"
+				item: { Count: 100, id: "minecraft:shulker_shell" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+	]
+	title: "Weekly Quests"
+}

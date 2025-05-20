@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiplayer"
+	group: "6986E1F3852EF30B"
+	id: "4D1A12FD070633FA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["This pack includes Create: Numismatics in case you want to play with other people, the following chapters are here for you to be able to btain the currency from Create: Numismatics (server admins may want to adjust or change these)"]
+		id: "102DC9949C915BC8"
+		rewards: [{
+			id: "1A52830C29B63CB5"
+			type: "xp"
+			xp: 100
+		}]
+		size: 2.0d
+		subtitle: "You can ignore this if you're playing alone"
+		tasks: [{
+			id: "571D4F8C70B5A202"
+			title: "Click me!"
+			type: "checkmark"
+		}]
+		title: "Multiplayer"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Multiplayer"
+}

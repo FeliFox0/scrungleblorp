@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "299F492D876042AB"
+	icon: "ae2:drive"
+	id: "4D6FFDD770BF6FF0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["This chapter will teach you about Applied Energistics 2 (AE2) a mod that lets you store massive amounts of items in a one block space, and if you prefer the mess you made with your chests and other things it can also interface with those"]
+		id: "731655B294470CC3"
+		rewards: [{
+			id: "6B492EFCA31E46F2"
+			type: "xp"
+			xp: 100
+		}]
+		subtitle: "An easy way to access all your stored items? No way"
+		tasks: [{
+			id: "459F627781EC907B"
+			title: "Click me!"
+			type: "checkmark"
+		}]
+		title: "Welcome to Applied Energistics 2"
+		x: -9.0d
+		y: 0.0d
+	}]
+	title: "Applied Energistics 2"
+}

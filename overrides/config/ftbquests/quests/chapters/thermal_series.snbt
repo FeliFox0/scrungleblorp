@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_series"
+	group: "60A7A788EC227E18"
+	icon: "thermal:enderium_gear"
+	id: "2C53D98FD352BADD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Thermal Series"
+}
