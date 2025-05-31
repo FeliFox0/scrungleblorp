@@ -15,14 +15,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "2CAE428F7CBC350E"
-					item: "sophisticatedbackpacks:backpack"
-					type: "item"
-				}
-				{
 					count: 32
 					id: "22D4AE7AD54EEE3E"
 					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "7EF8794DB4CACB31"
+					item: "gtceu:prospector.lv"
+					type: "item"
+				}
+				{
+					id: "24D1C8FA9F409B6C"
+					item: "sophisticatedbackpacks:iron_backpack"
 					type: "item"
 				}
 			]
